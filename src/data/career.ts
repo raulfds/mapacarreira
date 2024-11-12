@@ -119,7 +119,7 @@ export const departments: Department[] = [
       {
         id: 'post-sales-1',
         title: 'Supervisor de Pós-Vendas',
-        level: 'Sênior',
+        level: 'Supervisor',
         qualifications: [
           'Gerenciar a equipe de back office',
           'Monitorar indicadores de satisfação e eficiência',
