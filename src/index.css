@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@layer base {
+  html {
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+.career-card {
+  @apply relative overflow-hidden;
+}
+
+.career-card::before {
+  content: '';
+  @apply absolute inset-0 opacity-10 bg-gradient-to-br from-primary-100 to-primary-300 pointer-events-none;
+}
+
+.position-button {
+  @apply relative overflow-hidden shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300;
+}
+
+.position-button::after {
+  content: '';
+  @apply absolute inset-0 opacity-20 bg-gradient-to-br from-transparent to-white pointer-events-none;
+}
