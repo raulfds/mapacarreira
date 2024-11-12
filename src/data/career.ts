@@ -20,7 +20,7 @@ export const departments: Department[] = [
     name: 'Serviço de Atendimento ao Cliente (SAC)',
     positions: [
       {
-        id: 'sac-1',
+        id: 'sac-4',
         title: 'Supervisor de SAC',
         level: 'Sênior',
         qualifications: [
@@ -46,7 +46,7 @@ export const departments: Department[] = [
         ]
       },
       {
-        id: 'sac-2',
+        id: 'sac-3',
         title: 'Atendimento ao Cliente Sênior',
         level: 'Sênior',
         qualifications: [
@@ -69,7 +69,7 @@ export const departments: Department[] = [
         ]
       },
       {
-        id: 'sac-3',
+        id: 'sac-2',
         title: 'Atendimento ao Cliente Pleno',
         level: 'Pleno',
         qualifications: [
@@ -90,7 +90,7 @@ export const departments: Department[] = [
         ]
       },
       {
-        id: 'sac-4',
+        id: 'sac-1',
         title: 'Atendimento ao Cliente Júnior',
         level: 'Junior',
         qualifications: [
