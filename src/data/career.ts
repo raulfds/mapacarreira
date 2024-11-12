@@ -22,7 +22,7 @@ export const departments: Department[] = [
       {
         id: 'sac-4',
         title: 'Supervisor de SAC',
-        level: 'Sênior',
+        level: 'Supervisor',
         qualifications: [
           'Liderar a equipe de atendimento',
           'Monitorar indicadores de performance',
